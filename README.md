@@ -1,1 +1,1 @@
-# secondChanceBikes
+This is the website for the non-profit organization Second Chance Bikes. SCB is based out of Charleston, SC with the mission of getting reliable bicycles to the local community members that need them the most.
