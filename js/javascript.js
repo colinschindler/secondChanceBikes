@@ -4,7 +4,10 @@ function stickyNav() {
   const logoImg = document.querySelector('#logo');
   const navTop = nav.offsetTop;
 
-  if (window.scrollY >= navTop) {
+  console.log ('navTop = ' + navTop);
+  console.log ('scrollY = ' + scrollY);
+
+  if (window.scrollY > navTop) {
     nav.classList.add('sticky-nav');
     logo.classList.add('corner-logo');
     logoImg.src = 'images/home/logo-small.png';
