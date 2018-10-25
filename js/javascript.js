@@ -15,7 +15,7 @@ function stickyNav() {
     nav.classList.remove('sticky-nav');
     logo.classList.remove('corner-logo');
     logoImg.src = 'images/home/logo-big.png';
-  }
+  } 
 }
 
 window.addEventListener('scroll', stickyNav);

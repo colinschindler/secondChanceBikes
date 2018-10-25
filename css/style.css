@@ -115,8 +115,8 @@ nav li {
 /*END -- About Section -- END*/
 
 #get-involved {
+  padding-top: 11vh;
   width: 100%;
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -134,7 +134,7 @@ nav li {
 
 #reasons-container {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -200,9 +200,25 @@ nav li {
 /*END -- Get Involved Section -- END*/
 
 #our-work {
+  padding-top: 10vh;
   height: 100vh;
   width: 100%;
+}
+
+#nav-bar-work {
+  margin-top: 20px;
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nav-bar-work li {
+  width: 75px;
+  height: 75px;
   background-color: blue;
+  border-radius: 50px;
 }
 /*END -- Our Work Section -- END*/
 
