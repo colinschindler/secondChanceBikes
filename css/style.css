@@ -228,6 +228,63 @@ nav li {
 }
 /*END -- Contact Section -- END*/
 
+#newsletter {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#newsletter fieldset {
+  margin: 0 30px;
+  padding: 15px;
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(255, 165, 57, .08);
+}
+
+#newsletter legend {
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgba(67, 87, 75, 1);
+}
+
+#newsletter label {
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgba(67, 87, 75, 1);
+}
+
+#newsletter input {
+  margin: 15px;
+  width: 180px;;
+  height: 30px;
+}
+
+
+#newsletter button {
+  width: 90px;
+  height: 30px;
+  border: solid 1px white;
+  border-radius: 5px;
+  background-color: rgba(255, 165, 57, 1);
+}
+
+#newsletter button:hover {
+  box-shadow: 0px 0px 25px rgba(255, 165, 57, 1);
+  background-color: rgba(67, 87, 75, 1);
+  color:rgba(255, 165, 57, 1);
+}
+
+#newsletter fieldset:first-child {
+  text-align: center;
+}
+
+#newsletter legend {
+  text-align: left;
+}
+
 footer {
   height: 150px;
   width: 100%;

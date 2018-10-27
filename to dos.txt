@@ -1,0 +1,6 @@
+
+
+
+NEWSLETTER
+- regex on email signup for @stuff.com
+- figure out what needs to be done to link up actual newsletter
