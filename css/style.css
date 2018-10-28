@@ -84,6 +84,11 @@ body {
   display: flex;
 }
 
+.fade {
+  position: absolute;
+  top: -50;
+}
+
 .corner-logo {
   order: -1;
 }
