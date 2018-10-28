@@ -257,7 +257,6 @@ nav li {
 
 #contact {
   padding: 20px;
-  background-color: orange;
   text-align: center;
 }
 
@@ -271,15 +270,19 @@ nav li {
 }
 
 #fb{
-  width: 350px;
-  height: 500px;
-  background-color: white;
+  width: 45%;
+  max-width: 450px;
+  height: 550px;
+  background-color: dodgerblue;
+  border-radius: 15px;
 }
 
 #ig {
-  width: 350px;
-  height: 500px;
-  background-color: white;
+  width: 45%;
+  max-width: 450px;
+  height: 550px;
+  background-color: violet;
+  border-radius: 15px;
 }
 /*END -- Contact Section -- END*/
 
