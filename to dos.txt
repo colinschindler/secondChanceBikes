@@ -1,4 +1,9 @@
 
+NAV 
+- fix initial padding/margin error when user clicks nav link 
+- use js to detect scroll and apply a .fade 2s after users stops scrolling
+- remove .fade when scroll is detected 
+
 ABOUT
 - Mission/Vision downvoted, so do what instead?
 
@@ -19,7 +24,6 @@ x REPAIR DAYS
 NEWSLETTER
 - regex on email signup for @stuff.com
 - figure out what needs to be done to link up actual newsletter
-
 
 FOOTER
 - What should go in there
