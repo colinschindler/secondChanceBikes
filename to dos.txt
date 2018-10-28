@@ -1,6 +1,25 @@
 
+ABOUT
+- Mission/Vision downvoted, so do what instead?
 
+GET INVOLVED
+- Donate time - info on what they can do and how they can get 
+  approval to do it 
+- Donate bikes - map of donation sites?
+
+OUR WORK 
+x BIKE PLACEMENTS
+  - What do we want to say here 
+x BIKE DRIVES 
+  - What do we want to say here
+x REPAIR DAYS 
+  - What do we want to say here 
+  - Where, when, calendar?
 
 NEWSLETTER
 - regex on email signup for @stuff.com
 - figure out what needs to be done to link up actual newsletter
+
+
+FOOTER
+- What should go in there

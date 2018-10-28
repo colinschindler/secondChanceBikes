@@ -97,16 +97,30 @@ nav li {
 /*END -- Nav Section -- END*/
 
 #about {
-  height: 100vh;
+  display: flex;
   width: 100%;
-  background-image: url("../images/home/4-bw-2x.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-#about:hover {
-  animation: about-color 3s;
-  animation-fill-mode: forwards;
+#problem {
+  padding: 15px;
+  width: 45%;
+  height: 500px;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 25px;
+}
+
+#solution {
+  padding: 15px;
+  width: 45%;
+  height: 500px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border-radius: 25px;
 }
 
 @keyframes about-color {
@@ -200,36 +214,72 @@ nav li {
 /*END -- Get Involved Section -- END*/
 
 #our-work {
-  padding-top: 10vh;
-  height: 100vh;
+  margin-top: 15px;
   width: 100%;
 }
 
-#nav-bar-work {
-  margin-top: 20px;
-  padding: 10px 0;
-  width: 100%;
+#our-work ul {
+  padding: 20px;
   display: flex;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
 }
 
-#nav-bar-work li {
-  width: 75px;
-  height: 75px;
+#our-work li {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-align: center;
+  color: white;
   background-color: blue;
   border-radius: 50px;
 }
+
+#placements {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+}
+
 /*END -- Our Work Section -- END*/
 
 #contact {
-  height: 100vh;
+  padding: 20px;
   background-color: orange;
+  text-align: center;
+}
+
+#feeds-container {
+  margin: 20px 0 30px 0;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#fb{
+  width: 350px;
+  height: 500px;
+  background-color: white;
+}
+
+#ig {
+  width: 350px;
+  height: 500px;
+  background-color: white;
 }
 /*END -- Contact Section -- END*/
 
 #newsletter {
-  margin-top: 20px;
+  margin-top: 35px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -285,8 +335,26 @@ nav li {
   text-align: left;
 }
 
+/*END -- NEWSLETTER Section -- END*/
+
 footer {
+  display: flex;
+  margin-top: 45px;
   height: 150px;
   width: 100%;
-  background-color: white;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border-radius: 20px 20px 0 0;
+  border-top: solid 3px rgba(255, 165, 57, 1);
+  background-color: rgba(0, 0, 0, .75);
+}
+
+footer div {
+  height: 80px;
+}
+
+footer img {
+  height: 80px;
 }
