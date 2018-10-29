@@ -107,6 +107,7 @@ nav li {
 /*END -- Nav Section -- END*/
 
 #about {
+  padding-top: 11vh;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
