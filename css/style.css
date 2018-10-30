@@ -27,7 +27,15 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 60px;
+  font-size: 100%;
+}
+
+#nav-bar li {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px red;
 }
 
 #nav-bar a {
@@ -97,12 +105,8 @@ nav li {
   list-style: none;
 }
 
-#nav-logo {
-  height: 100%;
-}
-
-#logo{
-  height: 100%;
+.sticky-nav #logo {
+  height: 40px;
 }
 /*END -- Nav Section -- END*/
 

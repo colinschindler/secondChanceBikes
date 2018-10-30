@@ -1,8 +1,7 @@
 
 NAV 
 - fix initial padding/margin error when user clicks nav link 
-- use js to detect scroll and apply a .fade 2s after users stops scrolling
-- remove .fade when scroll is detected 
+- create media queries for different screen sizes
 
 ABOUT
 - Mission/Vision downvoted, so do what instead?
