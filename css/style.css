@@ -385,7 +385,11 @@ footer {
   padding: 0 25px 0 15px;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+}
+
+#footer-right .donate {
+  border-color: white;
 }
 
 #footer-right p {
