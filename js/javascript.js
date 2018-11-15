@@ -17,6 +17,8 @@ function stickyNav() {
 
 window.addEventListener('scroll', stickyNav);
 
+
+//  -- NAVBAR FADING  --
 var isScrolling;
 
 // Listen for scroll events
@@ -40,3 +42,14 @@ window.addEventListener('scroll', function ( event ) {
   nav.classList.remove('fade');
 
 }, false);
+
+//  --  END  -- NAVBAR FADING  --  END  --
+
+function jumpToCorrectLocation() {
+  window.scrollTo(0, 2);
+
+  //calculate how far to about section and move to there
+
+  //add onclick to navbuttons
+
+}
