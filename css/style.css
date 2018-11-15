@@ -50,6 +50,18 @@ body {
   background-color: transparent;
 }
 
+@media only screen and (max-width: 800px) {
+  #logo {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #logo {
+    height: 80px;
+  }
+}
+
 #nav-bar a:hover {
   background-color: rgba(255, 165, 57, .95);
   border: solid 1px rgba(67, 87, 75, 1);
@@ -381,6 +393,18 @@ footer {
   border-radius: 20px 20px 0 0;
   border-top: solid 3px rgba(255, 165, 57, 1);
   background-color: rgba(0, 0, 0, .75);
+}
+
+@media only screen and (max-width: 800px) {
+  #footer-left p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #footer-left p {
+    font-size: 15px;
+  }
 }
 
 #footer-left {
