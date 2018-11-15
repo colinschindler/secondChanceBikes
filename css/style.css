@@ -27,7 +27,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 100%;
 }
 
 #nav-bar li {
@@ -40,7 +39,9 @@ body {
 #nav-bar a {
   padding: 10px;
   font-weight: bolder; 
+  font-size: 30px;
   text-decoration: none;
+  text-align: center;
   color: white;
   background-color: rgba(67, 87, 75, 1);
   border-radius: 10px;
@@ -54,11 +55,19 @@ body {
   #logo {
     height: 150px;
   }
+
+  #nav-bar a {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   #logo {
     height: 80px;
+  }
+
+  #nav-bar a {
+    font-size: 15px;
   }
 }
 
@@ -108,12 +117,24 @@ body {
   top: -50;
 }
 
+.fade:hover {
+  position:fixed;
+  top: 0;
+}
+
 .corner-logo {
   order: -1;
 }
 
 nav li {
   list-style: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .sticky-nav #nav-logo  {
+    position: absolute;
+    top: -150px;
+  }
 }
 
 .sticky-nav #logo {
