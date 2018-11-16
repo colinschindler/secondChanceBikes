@@ -45,11 +45,9 @@ window.addEventListener('scroll', function ( event ) {
 
 //  --  END  -- NAVBAR FADING  --  END  --
 
-function jumpToCorrectLocation() {
+//function that moves window location, which activates stickyNav, which 
+//allows navbar links to link to the correct location
+function navJumpFix() {
   window.scrollTo(0, 2);
-
-  //calculate how far to about section and move to there
-
-  //add onclick to navbuttons
-
+  stickyNav();
 }

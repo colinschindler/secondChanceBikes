@@ -143,7 +143,8 @@ nav li {
 /*END -- Nav Section -- END*/
 
 #about {
-  padding-top: 11vh;
+  padding-top: 12vh;
+  margin-bottom: -9vh;
   display: flex;
   width: 100%;
   flex-wrap: wrap;
@@ -176,7 +177,8 @@ nav li {
 /*END -- About Section -- END*/
 
 #get-involved {
-  padding-top: 11vh;
+  padding-top: 12vh;
+  margin-bottom: -9vh;
   width: 100%;
   padding-bottom: 20px;
 }
@@ -271,7 +273,8 @@ nav li {
 }
 
 #our-work {
-  padding-top: 11vh;
+  padding-top: 13vh;
+  margin-bottom: -9vh;
   width: 100%;
   color: rgba(255, 165, 57, 1);
 }
@@ -313,7 +316,7 @@ nav li {
 /*END -- Our Work Section -- END*/
 
 #contact {
-  padding-top: 11vh;
+  padding-top: 13vh;
   text-align: center;
 }
 
