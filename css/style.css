@@ -143,37 +143,17 @@ nav li {
 /*END -- Nav Section -- END*/
 
 #about {
-  padding-top: 12vh;
+  padding-top: 18vh;
   margin-bottom: -9vh;
-  display: flex;
   width: 100%;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 
-#problem {
-  padding: 15px;
-  width: 45%;
-  height: 500px;
-  text-align: center;
-  color: white;
-  background-color: red;
-  border-radius: 25px;
+#about-inner {
+  padding: 10px;
+  background-color: rgba(255, 165, 57, 1);
+  color: rgba(67, 87, 75, 1);
 }
 
-#solution {
-  padding: 15px;
-  width: 45%;
-  height: 500px;
-  text-align: center;
-  color: white;
-  background-color: green;
-  border-radius: 25px;
-}
-
-@keyframes about-color {
-  100% { background-image: url("../images/home/4-c-2x.jpg"); }
-}
 /*END -- About Section -- END*/
 
 #get-involved {
@@ -379,7 +359,6 @@ nav li {
   width: 180px;;
   height: 30px;
 }
-
 
 #newsletter button {
   width: 90px;
