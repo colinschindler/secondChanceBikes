@@ -1,22 +1,19 @@
 
-NAV 
-- fix initial padding/margin error when user clicks nav link
-
 ABOUT
 - Chris is writing me a vision
 
 GET INVOLVED
-- Donate time - info on what they can do and how they can get 
-  approval to do it 
+- Donate time - info on what they can do and how they can get
+  approval to do it
 - Donate bikes - map of donation sites?
 
-OUR WORK 
+OUR WORK
 x BIKE PLACEMENTS
-  - What do we want to say here 
-x BIKE DRIVES 
   - What do we want to say here
-x REPAIR DAYS 
-  - What do we want to say here 
+x BIKE DRIVES
+  - What do we want to say here
+x REPAIR DAYS
+  - What do we want to say here
   - Where, when, calendar?
 
 NEWSLETTER

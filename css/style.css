@@ -38,7 +38,7 @@ body {
 
 #nav-bar a {
   padding: 10px;
-  font-weight: bolder; 
+  font-weight: bolder;
   font-size: 30px;
   text-decoration: none;
   text-align: center;
@@ -310,10 +310,9 @@ nav li {
 }
 
 #fb{
-  width: 45%;
-  max-width: 450px;
+  margin: 0 auto;
+  width: 400px;
   height: 550px;
-  background-color: dodgerblue;
   border-radius: 15px;
 }
 
