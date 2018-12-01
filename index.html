@@ -32,11 +32,11 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window,document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-     fbq('init', '331797070953211'); 
+     fbq('init', '331797070953211');
     fbq('track', 'PageView');
     </script>
     <noscript>
-     <img height="1" width="1" 
+     <img height="1" width="1"
     src="https://www.facebook.com/tr?id=331797070953211&ev=PageView
     &noscript=1"/>
     </noscript>
@@ -45,6 +45,17 @@
 </head>
 
 <body>
+  
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=2218061121808751&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  
+  
   <div id="page-wrap">
 
     <header>
@@ -90,7 +101,7 @@
         <p> - Other ways to help - </p>
         <a href="">Volunteer</a>
         <a href="">Give Bikes</a>
-     </div>  
+     </div>
     </section>
 
     <section id="our-work">
@@ -123,7 +134,9 @@
       <h1>CONTACT</h1>
       
       <div id="feeds-container">
-        <div id="fb">Facebook Feed</div>
+        <div id="fb">
+          <div class="fb-page" data-href="https://www.facebook.com/secondchancebikescharleston/" data-tabs="timeline" data-width="400" data-height="550" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/secondchancebikescharleston/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/secondchancebikescharleston/">Second Chance Bikes</a></blockquote></div>
+        </div>
         <div id="ig">Instagram Feed</div>
       </div>
     
