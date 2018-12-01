@@ -1,4 +1,11 @@
 
+NAV
+- transition navbar better
+  - maybe use transform/animate
+  - consider not enlarging when you scroll all the way up
+- about is funky when it goes all the way back to top
+  - start at the yellow top of about section
+
 ABOUT
 - Chris is writing me a vision
 

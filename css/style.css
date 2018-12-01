@@ -210,15 +210,6 @@ nav li {
   border-radius: 15px;
 }
 
-.donate {
-  padding: 5px;
-  font-size: 50px;
-  color: white;
-  background-color: red;
-  border-radius: 10px;
-  border: solid 2px black;
-}
-
 #other-ways {
   margin-top: 30px;
   text-align: center;
